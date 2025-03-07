@@ -22,8 +22,8 @@ export default function Testemonials() {
             <div className="p-5 rounded-xl bg-neutral-700/50 md:w-[45%] lg:w-[30%] w-100% flex flex-col justify-between h-fit gap-5 hover:shadow-[1px_1px_3px_gray] hover:scale-102 transition-all">
               <p>{opinion.text}</p>
               <div className="flex gap-3 place-items-center">
-                <div className="basis-[20]! flex">
-                  <img src={usersImgs[index]} className="rounded-[100%] w-15 h-15 max-w-auto"/>
+                <div className="basis-[20%]">
+                  <img src={usersImgs[index]} className="rounded-[100%] w-15 h-15"/>
                 </div>
                 <div>
                   <h4 className="font-bold">{opinion.user}</h4>
