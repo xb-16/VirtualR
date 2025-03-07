@@ -23,7 +23,7 @@ export default function Testemonials() {
               <p>{opinion.text}</p>
               <div className="flex gap-3 place-items-center">
                 <div className="basis-[20]! flex">
-                  <img src={usersImgs[index]} className="rounded-[100%] w-15 h-15"/>
+                  <img src={usersImgs[index]} className="rounded-[100%] w-15 h-15 max-w-auto"/>
                 </div>
                 <div>
                   <h4 className="font-bold">{opinion.user}</h4>
