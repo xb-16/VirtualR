@@ -1,7 +1,7 @@
 import React from "react";
 import { pricingOptions } from "../constants";
 import { CheckCircle2 } from "lucide-react";
-
+import {  motion } from "framer-motion";
 export default function Pricing() {
   return (
     <section className="mt-20">
@@ -9,9 +9,15 @@ export default function Pricing() {
         Pricing
       </h2>
       <div className="md:flex flex-wrap justify-between mx-15 max-sm:mx-10 lg:mx-30 max-md:space-y-4 max-md:text-center">
-        {pricingOptions.map((price) => {
+        {pricingOptions.map((price, index) => {
           return (
-            <div className="rounded-2xl border-slate-500/50 border px-6 py-10 md:basis-[31%] flex flex-col gap-6 hover:scale-105 transition-all">
+            <motion.div
+            initial={{y : 20, opacity : 0, scale : .9}}
+            whileInView={{y : 0, opacity : 1, scale : 1}}
+            transition={{duration : .5 * (index+1)}}
+            className="rounded-2xl border-slate-500/50 border px-6 py-10 md:basis-[31%] flex flex-col gap-6 hover:scale-105 transition-all"
+              key={index}
+            >
               <h4 className="text-3xl">
                 {price.title}{" "}
                 {price.title == "Pro" ? (
@@ -28,9 +34,9 @@ export default function Pricing() {
                 /Month
               </p>
               <ul className="space-y-4">
-                {price.features.map((feat) => {
+                {price.features.map((feat, index) => {
                   return (
-                    <li className="flex gap-2">
+                    <li className="flex gap-2" key={index}>
                       <CheckCircle2 /> {feat}
                     </li>
                   );
@@ -39,7 +45,7 @@ export default function Pricing() {
               <button className="rounded-xl border-orange-500/70 border-1 py-2 hover:bg-orange-600 hover:border-white transition-all tracking-wider">
                 Subscribe
               </button>
-            </div>
+            </motion.div>
           );
         })}
       </div>

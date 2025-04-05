@@ -8,6 +8,12 @@ import {
   GlobeLock,
 } from "lucide-react";
 import { features } from "../constants";
+import { motion } from "framer-motion";
+
+const scrollVariants = {
+  hidden: { opacity: 0, y: 60 },
+  visible: { opacity: 1, y: 0, transition: { duration: 0.8 } },
+};
 
 export default function Features() {
   return (
@@ -21,10 +27,17 @@ export default function Features() {
           Your code
         </span>
       </h2>
-      <div className="flex w-full flex-wrap flex-col md:flex-row md:w-[90%] lg:w-[85%]">
-        {features.map((feat) => {
+      <motion.div layout className="flex w-full flex-wrap flex-col md:flex-row md:w-[90%] lg:w-[85%]">
+        {features.map((feat, index) => {
           return (
-            <div className="w-[90%] mx-auto md:w-1/2 lg:w-1/3 p-5 flex gap-3">
+            <motion.div
+              initial="hidden"
+              whileInView="visible"
+              variants={scrollVariants}
+              viewport={{ once: true, amount: 0.5 }}
+              className="w-[90%] mx-auto md:w-1/2 lg:w-1/3 p-5 flex gap-3"
+              key={index}
+            >
               <div className="basis-fit text-amber-700 bg-slate-800 h-fit p-2 rounded-[100%]">
                 {feat.icon}
               </div>
@@ -32,10 +45,10 @@ export default function Features() {
                 <h3 className="text-white mt-1">{feat.text}</h3>
                 <p className="text-gray-400">{feat.description}</p>
               </div>
-            </div>
+            </motion.div>
           );
         })}
-      </div>
+      </motion.div>
     </section>
   );
 }

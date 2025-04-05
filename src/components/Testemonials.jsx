@@ -8,6 +8,8 @@ import user4 from "/src/assets/profile-pictures/user4.jpg";
 import user5 from "/src/assets/profile-pictures/user5.jpg";
 import user6 from "/src/assets/profile-pictures/user6.jpg";
 
+import {motion} from "framer-motion"
+
 let usersImgs = [user1,user3,user5, user4, user5, user1];
 
 export default function Testemonials() {
@@ -19,7 +21,11 @@ export default function Testemonials() {
       <div className="md:flex justify-center gap-3 flex-wrap mt-12 max-md:space-y-4 max-md:mx-10">
         {testimonials.map((opinion, index) => {
           return (
-            <div className="p-5 rounded-xl bg-neutral-700/50 md:w-[45%] lg:w-[30%] w-100% flex flex-col justify-between h-fit gap-5 hover:shadow-[1px_1px_3px_gray] hover:scale-102 transition-all">
+            <motion.div
+            initial={{scale : .8, opacity : 0,}}
+            whileInView={{scale : 1, opacity : 1}}
+            transition={{duration : .4}}
+            className="p-5 rounded-xl bg-neutral-700/50 md:w-[45%] lg:w-[30%] w-100% flex flex-col justify-between h-fit gap-5 hover:shadow-[1px_1px_3px_gray] hover:scale-102 transition-all" key={index}>
               <p>{opinion.text}</p>
               <div className="flex gap-3 place-items-center">
                 <div className="basis-[20%]">
@@ -30,7 +36,7 @@ export default function Testemonials() {
                   <p className="text-neutral-400">{opinion.company}</p>
                 </div>
               </div>
-            </div>
+            </motion.div>
           );
         })}
       </div>

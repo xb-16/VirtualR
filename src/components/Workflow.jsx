@@ -2,6 +2,7 @@ import React from "react";
 import { CheckCircle2 } from "lucide-react";
 import codeImage from "/src/assets/code.jpg";
 import { checklistItems } from "/src/constants";
+import { motion } from "framer-motion";
 export default function Workflow() {
   return (
     <section className="mt-20 flex flex-col gap-13">
@@ -16,15 +17,24 @@ export default function Workflow() {
           <img src={codeImage} className="w-[70%] md:w-[80%]" />
         </div>
         <div className="space-y-3 w-[90%] mx-auto md:w-[60%]">
-          {checklistItems.map((item) => {
+          {checklistItems.map((item, index) => {
             return (
-              <div className="flex gap-4">
+              <motion.div
+                initial={{ x: -30, opacity: 0 }}
+                transition={{duration : 1}}
+                whileInView={{
+                  x: 0,
+                  opacity: 1,
+                }}
+                className="flex gap-4"
+                key={index}
+              >
                 <CheckCircle2 color="lightgreen" className="mt-1" />
                 <div className="flex flex-col gap-1">
                   <h2 className="text-xl font-medium">{item.title}</h2>
                   <p className="text-gray-400">{item.description}</p>
                 </div>
-              </div>
+              </motion.div>
             );
           })}
         </div>
