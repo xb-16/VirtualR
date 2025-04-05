@@ -14,7 +14,8 @@ I followed a tutorial by **@kushald** on YouTube:
 
 During the project, I used:  
 - **[Lucide Icons](https://lucide.dev/guide/packages/lucide-react)** for the icons.  
-- **Tailwind CSS** for responsive design, leveraging its utility classes to make the page fully responsive.  
+- **Tailwind CSS** for responsive design, leveraging its utility classes to make the page fully responsive.
+- **[Framer Motion](https://motion.dev/docs/react-quick-start)** for Animation especially while scrolling on the page.
 
 This was a great learning experience, and I feel my skills have improved significantly. Special thanks to **@kushald** for the excellent tutorial!  
 
