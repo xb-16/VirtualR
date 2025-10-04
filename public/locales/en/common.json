@@ -1,0 +1,14 @@
+{
+  "welcome": "Welcome",
+  "language": "Language",
+  "signin": "Sign in",
+  "createAccount": "Create an account",
+  "nav": {
+    "items": [
+      { "href": "#home", "label": "Home" },
+      { "href": "#about", "label": "About" },
+      { "href": "#services", "label": "Services" },
+      { "href": "#contact", "label": "Contact" }
+    ]
+  }
+}
