@@ -14,7 +14,8 @@ I followed a tutorial by **@kushald** on YouTube:
 
 During the project, I used:  
 - **[Lucide Icons](https://lucide.dev/guide/packages/lucide-react)** for the icons.  
-- **Tailwind CSS** for responsive design, leveraging its utility classes to make the page fully responsive.  
+- **Tailwind CSS** for responsive design, leveraging its utility classes to make the page fully responsive.
+- **i18n** for multilingual support, enabling dynamic translation of content and seamless switching between languages (e.g., English and French) using react-i18next, with language detection and lazy loading of translation files for better performance.
 
 This was a great learning experience, and I feel my skills have improved significantly. Special thanks to **@kushald** for the excellent tutorial!  
 
@@ -30,6 +31,7 @@ This was a great learning experience, and I feel my skills have improved signifi
 ### Key Features:  
 - Built with **React** and **Tailwind CSS**.  
 - Fully responsive design.  
+- Multilanguage support.
 - Utilized **Lucide Icons** for a modern look.  
 
 ---
