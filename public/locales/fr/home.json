@@ -1,0 +1,171 @@
+{
+  "hero": {
+    "title": "Outils de développement virtualR pour les développeurs",
+    "highlight": "pour\n les développeurs",
+    "description": "Libérez votre créativité et donnez vie à vos idées d'applications VR grâce à nos outils de développement intuitifs. Commencez dès aujourd'hui et transformez votre imagination en réalité immersive !",
+    "start": "Commencer gratuitement",
+    "docs": "Documentation"
+  },
+  "features": {
+    "badge": "Fonctionnalités",
+    "title": {
+      "part1": "Construisez facilement",
+      "highlight": "Votre code"
+    },
+    "items": [
+      {
+        "text": "Interface glisser-déposer",
+        "description": "Concevez et organisez facilement vos environnements VR grâce à une interface intuitive de glisser-déposer."
+      },
+      {
+        "text": "Compatibilité multi-plateforme",
+        "description": "Créez des applications VR qui fonctionnent parfaitement sur plusieurs plateformes, y compris mobile, bureau et casques VR."
+      },
+      {
+        "text": "Modèles intégrés",
+        "description": "Lancez vos projets VR avec une variété de modèles intégrés pour différents types d'applications et d'environnements."
+      },
+      {
+        "text": "Aperçu en temps réel",
+        "description": "Prévisualisez votre application VR en temps réel lors de vos modifications, permettant des itérations rapides et des ajustements immédiats."
+      },
+      {
+        "text": "Outils de collaboration",
+        "description": "Collaborez en temps réel avec votre équipe sur des projets VR, favorisant un partage fluide des idées."
+      },
+      {
+        "text": "Tableau de bord analytique",
+        "description": "Obtenez des informations précieuses sur les interactions et comportements des utilisateurs dans vos applications VR grâce à un tableau de bord intégré."
+      }
+    ]
+  },
+  "workflow": {
+    "title": "Accélérez votre <1>flux de travail de codage</1>",
+    "checklist": [
+      {
+        "title": "Fusion de code simplifiée",
+        "description": "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs."
+      },
+      {
+        "title": "Relisez le code en toute sérénité",
+        "description": "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs."
+      },
+      {
+        "title": "Assistance IA pour gagner du temps",
+        "description": "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs."
+      },
+      {
+        "title": "Partagez votre travail en quelques minutes",
+        "description": "Suivez les performances de vos applications VR et obtenez des informations sur le comportement des utilisateurs."
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "mostPopular": "Le plus populaire",
+    "perMonth": "Mois",
+    "subscribe": "S'abonner",
+    "options": [
+      {
+        "title": "Gratuit",
+        "price": "0€",
+        "features": [
+          "Partage de tableau privé",
+          "5 Go de stockage",
+          "Analyse web",
+          "Mode privé"
+        ]
+      },
+      {
+        "title": "Pro",
+        "price": "10€",
+        "mostPopular": true,
+        "features": [
+          "Partage de tableau privé",
+          "10 Go de stockage",
+          "Analyse web (avancée)",
+          "Mode privé"
+        ]
+      },
+      {
+        "title": "Entreprise",
+        "price": "200€",
+        "features": [
+          "Partage de tableau privé",
+          "Stockage illimité",
+          "Réseau haute performance",
+          "Mode privé"
+        ]
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Ce que disent les gens",
+    "items": [
+      {
+        "user": "John Doe",
+        "company": "Stellar Solutions",
+        "text": "Je suis extrêmement satisfait des services fournis. L'équipe a été réactive, professionnelle et a livré des résultats au-delà de mes attentes."
+      },
+      {
+        "user": "Jane Smith",
+        "company": "Blue Horizon Technologies",
+        "text": "Je ne pourrais pas être plus heureuse du résultat de notre projet. La créativité et les compétences en résolution de problèmes de l'équipe ont été essentielles pour donner vie à notre vision."
+      },
+      {
+        "user": "David Johnson",
+        "company": "Quantum Innovations",
+        "text": "Travailler avec cette entreprise a été un plaisir. Leur souci du détail et leur engagement envers l'excellence sont remarquables. Je les recommande vivement à quiconque recherche un service de premier ordre."
+      },
+      {
+        "user": "Ronee Brown",
+        "company": "Fusion Dynamics",
+        "text": "Travailler avec l'équipe de XYZ Company a changé la donne pour notre projet. Leur souci du détail et leurs solutions innovantes nous ont permis d'atteindre nos objectifs plus rapidement que prévu."
+      },
+      {
+        "user": "Michael Wilson",
+        "company": "Visionary Creations",
+        "text": "Je suis impressionné par le niveau de professionnalisme et de dévouement de l'équipe. Ils ont su dépasser nos attentes et livrer des résultats exceptionnels."
+      },
+      {
+        "user": "Emily Davis",
+        "company": "Synergy Systems",
+        "text": "L'équipe s'est surpassée pour garantir le succès de notre projet. Leur expertise et leur dévouement sont inégalés. J'ai hâte de retravailler avec eux à l'avenir."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Libérez votre créativité et donnez vie à vos idées d'applications VR grâce à nos outils de développement intuitifs. Commencez dès aujourd'hui et transformez votre imagination en réalité immersive !",
+    "resources": {
+      "title": "Ressources",
+      "links": [
+        { "href": "#", "text": "Bien démarrer" },
+        { "href": "#", "text": "Documentation" },
+        { "href": "#", "text": "Tutoriels" },
+        { "href": "#", "text": "Référence API" },
+        { "href": "#", "text": "Forums communautaires" }
+      ]
+    },
+    "platform": {
+      "title": "Plateforme",
+      "links": [
+        { "href": "#", "text": "Fonctionnalités" },
+        { "href": "#", "text": "Appareils pris en charge" },
+        { "href": "#", "text": "Configuration requise" },
+        { "href": "#", "text": "Téléchargements" },
+        { "href": "#", "text": "Notes de version" }
+      ]
+    },
+    "community": {
+      "title": "Communauté",
+      "links": [
+        { "href": "#", "text": "Événements" },
+        { "href": "#", "text": "Meetups" },
+        { "href": "#", "text": "Conférences" },
+        { "href": "#", "text": "Hackathons" },
+        { "href": "#", "text": "Offres d'emploi" }
+      ]
+    },
+    "designedBy": "Conçu par"
+  }
+}

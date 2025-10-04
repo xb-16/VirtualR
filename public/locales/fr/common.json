@@ -1,0 +1,14 @@
+{
+  "welcome": "Bienvenue",
+  "language": "Langue",
+  "signin": "Se connecter",
+  "createAccount": "Créer un compte",
+  "nav": {
+    "items": [
+      { "href": "#home", "label": "Accueil" },
+      { "href": "#about", "label": "À propos" },
+      { "href": "#services", "label": "Services" },
+      { "href": "#contact", "label": "Contact" }
+    ]
+  }
+}
