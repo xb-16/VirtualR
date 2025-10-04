@@ -12,9 +12,13 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.9",
     "framer-motion": "^12.4.10",
+    "i18next": "^25.5.3",
+    "i18next-browser-languagedetector": "^8.2.0",
+    "i18next-http-backend": "^3.0.2",
     "lucide-react": "^0.477.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-i18next": "^16.0.0",
     "tailwindcss": "^4.0.9"
   },
   "devDependencies": {
